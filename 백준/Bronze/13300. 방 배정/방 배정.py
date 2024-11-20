@@ -9,6 +9,6 @@ for _ in range(N):
 for cnt in count:
     result += cnt//K
     if cnt%K > 0:
-        result += cnt%K
+        result += 1
 
 print(result)
